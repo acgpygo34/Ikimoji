@@ -33,15 +33,6 @@ class InquiryController < ApplicationController
     # 完了画面を表示
     render :action => 'thanks', :layout => "second_layout"
 
-  rescue => excptn
-    if excptn.message.include?("User unknown in virtual mailbox table") then
-    　flash.now[:warning] = "メールアドレスにメールが送信できませんでした。再度お試しください。"
-    elsif excptn.message.include?("Name or service not known") then
-    　raise StandardError.new("メールアドレスにメールが送信できませんでした。再度お試しください。")
-    else
-    　raise StandardError.new("メールアドレスにメールが送信できませんでした。再度お試しください。")
-    end
-
   end
 
   private
