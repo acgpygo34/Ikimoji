@@ -1,0 +1,116 @@
+
+<div class="main-container">
+
+<div id="top_page" class="main-pic resize">
+  <%= image_tag 'ikimoji-logo.png'%>
+</div>
+
+<div id="about">
+  <h1><span class="headline">いきもじとは</span></h1>
+<div class="box17">
+  <p>
+    粋で活きのいい生きた文字<br>いきものともじを組み合わせたデザインで作品を制作しています。
+  </p>
+</div>
+</div>
+
+<div id="news">
+  <h1><span class="headline">NEWS</span></h1>
+  <ul class="article">
+    <li class="date">2018/11/10 - 11</li>
+    <li class="event">デザインフェスタ no.48</li>
+    <li class="place">東京：東京ビックサイト</li>
+    <li class="detail">
+      2018年11月10日(土)-2018年11月11日（日)<br>
+      東京：東京ビックサイト 西ホール全館<br>
+      〒135-0063 東京都江東区有明３-１１−１<br>
+      ブース：西1ホール G-380<br>
+      時間：11:00 – 19:00<br>
+      会場マップ <a href="https://designfesta.com/about-map/" target="_blank">https://designfesta.com/about-map/</a><br>
+      <a href="https://designfesta.com" target="_blank">https://designfesta.com</a>
+    </li>
+  </ul>
+  <ul class="article bg-light">
+    <li class="event">◉常設取扱◉</li>
+    <li class="detail2">
+      ネットショップ：いきもーる様(<a href="https://twitter.com/ikimonopre" target="_blank">@IkimonoPre</a>)<br>
+      <a href="http://ikimall.ikimonopal.jp" target="_blank">&emsp;http://ikimall.ikimonopal.jp</a><br>
+      大阪中崎町：舎利殿様(<a href="https://twitter.com/syarineko" target="_blank">@syarineko</a>)<br>
+     <a href="https://syariden.jimdo.com" target="_blank">&emsp;https://syariden.jimdo.com</a><br>
+      三重：海の博物館(<a href="https://twitter.com/umi_museum" target="_blank">@umi_museum</a>)<br>
+      <a href="http://www.umihaku.com/index.html" target="_blank">&emsp;http://www.umihaku.com/index.html</a><br>
+      SUZURI(<a href="https://twitter.com/suzurijp" target="_blank">@suzurijp</a>)<br>
+      <a href="https://suzuri.jp/coyomico" target="_blank">&emsp;https://suzuri.jp/coyomico</a><br>
+    </li>
+  </ul>
+
+</div>
+
+<div id="gallery" class="margin-t">
+<h1><span class="headline">GALLERY</span></h1>
+</div>
+
+<div class="slider-pro" id="slider2">
+  <div class="sp-slides">
+    <!-- Slide 1 -->
+    <div class="sp-slide">
+      <%= image_tag("top1.jpg", :class => "sp-image") %>
+    </div>
+    <!-- Slide 2 -->
+    <div class="sp-slide">
+      <%= image_tag("top2.jpg", :class => "sp-image") %>
+    </div>
+    <!-- Slide 3 -->
+    <div class="sp-slide">
+      <%= image_tag("top3.jpg", :class => "sp-image") %>
+    </div>
+    <!-- Slide 4 -->
+    <div class="sp-slide">
+      <%= image_tag("top4.jpg", :class => "sp-image") %>
+    </div>
+    <!-- Slide 5 -->
+    <div class="sp-slide">
+      <%= image_tag("top5.jpg", :class => "sp-image") %>
+    </div>
+    <!-- Slide 6 -->
+    <div class="sp-slide">
+      <%= image_tag("top6.jpg", :class => "sp-image") %>
+    </div>
+  </div>
+
+  <div class="sp-thumbnails">
+    <%= image_tag("top1.jpg", :class => "sp-thumbnail") %>
+    <%= image_tag("top2.jpg", :class => "sp-thumbnail") %>
+    <%= image_tag("top3.jpg", :class => "sp-thumbnail") %>
+    <%= image_tag("top4.jpg", :class => "sp-thumbnail") %>
+    <%= image_tag("top5.jpg", :class => "sp-thumbnail") %>
+    <%= image_tag("top6.jpg", :class => "sp-thumbnail") %>
+  </div>
+</div>
+
+
+<script>
+    $( document ).ready(function( $ ) {
+        $('#slider2').sliderPro({
+            width: '90%',
+            height: 500,
+            responsive: true,
+            aspectRatio: -1,
+            arrows: true,
+            thumbnailArrows: true,
+            autoplay: false,
+            buttons: false,//ナビゲーションボタン
+            thumbnailWidth: 200,//サムネイルの横幅
+            thumbnailHeight: 60,//サムネイルの縦幅
+            slideDistance:0,//スライド同士の距離
+            breakpoints: {
+                480: {//表示方法を変えるサイズ
+                    thumbnailWidth: 110,
+                    thumbnailHeight: 40
+                }
+            }
+        });
+    });
+</script>
+
+</div>
