@@ -13,7 +13,7 @@
  */
 
 .navbar-nav a{
-  color: #48ACF0;
+  color: #48ACF0 !important;
 }
 
 .navbar-item {
@@ -42,4 +42,128 @@ body {
   display: none;
   width: 100%;
   max-width: 660px;
+}
+
+//home.scss
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+a:link {
+  color: rgba(18, 17, 68, 0.9);
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(18, 17, 68, 0.9);
+}
+
+
+.resize img {
+  width: 100%;
+}
+
+.bb {
+  color: green;
+}
+
+.box17{
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.box17:before, .box17:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.box17:before {left: 10px;}
+.box17:after {right: 10px;}
+.box17 p {
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  margin-top : 2.5em;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h1:before, h1:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+h1:before {left:0;}
+h1:after {right: 0;}
+
+.headline {
+  font-size: 2rem;
+}
+
+.main-container {
+  font-family: "American Typewriter","Tsukushi B Round Gothic",YuGothic,'Yu Gothic',"Hiragino Kaku Gothic ProN",sans-serif;
+}
+
+.article {
+  margin-bottom: 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+
+  li {
+    list-style: none;
+  }
+  .date {
+    color: #4d4d4d;
+    font-size: 18px;
+  }
+  .event {
+    font-size: 24px;
+  }
+  .place {
+    color: #4d4d4d;
+    font-size: 18px;
+  }
+  .detail {
+    font-size: 14px;
+  }
+  .detail2 {
+    font-size: 15px;
+  }
+
+}
+
+.alter_color {
+  margin-top: 0;
+  background-color: rgba(235, 235, 235, 0.49);
+}
+
+#top_page {
+  margin-top: -70px;
+  padding-top: 70px;
+}
+
+#about,#news {
+  margin-top: -100px;
+  padding-top: 100px;
+}
+
+#gallery {
+  margin-top: -100px;
+  padding-top: 150px;
 }
