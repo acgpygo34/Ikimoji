@@ -30,6 +30,8 @@ class InquiryController < ApplicationController
     # メール送信
     @inquiry = Inquiry.new(inquiry_params)
     @mail = InquiryMailer.send_mail(@inquiry).deliver
+    # 完了画面を表示
+    render :action => 'thanks', :layout => "second_layout"
 
   rescue => excptn
     if excptn.message.include?("User unknown in virtual mailbox table") then
@@ -40,8 +42,6 @@ class InquiryController < ApplicationController
     　raise StandardError.new("メールアドレスにメールが送信できませんでした。再度お試しください。")
     end
 
-    # 完了画面を表示
-    render :action => 'thanks', :layout => "second_layout"
   end
 
   private
