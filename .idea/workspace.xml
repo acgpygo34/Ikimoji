@@ -156,7 +156,7 @@
           <entry key="Gemfile" value="17" />
           <entry key="erb" value="199" />
           <entry key="js" value="3" />
-          <entry key="rb" value="168" />
+          <entry key="rb" value="172" />
           <entry key="scss" value="73" />
           <entry key="yml" value="1" />
         </counts>
@@ -166,7 +166,7 @@
           <entry key="Enforced Plain Text" value="9" />
           <entry key="JavaScript" value="3" />
           <entry key="RHTML" value="190" />
-          <entry key="Ruby" value="185" />
+          <entry key="Ruby" value="189" />
           <entry key="SCSS" value="73" />
           <entry key="YAML" value="1" />
         </counts>
@@ -251,8 +251,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/rack_rewrite.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="92">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -444,6 +444,10 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="ikimojitest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ikimojitest" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="ikimojitest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -747,12 +751,12 @@
       <workItem from="1541666779201" duration="1189000" />
       <workItem from="1541669081048" duration="1226000" />
       <workItem from="1541782933803" duration="429000" />
-      <workItem from="1541783481929" duration="11680000" />
+      <workItem from="1541783481929" duration="11981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75323000" />
+    <option name="totallyTimeSpent" value="75624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,7 +769,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="449" y="27" width="984" height="720" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.28874734" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.27659574" />
@@ -1076,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/rack_rewrite.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
