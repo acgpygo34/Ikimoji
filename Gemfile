@@ -50,7 +50,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # bootstrap install
-  gem 'bootstrap', '~> 4.1.1'
+  gem 'bootstrap-sass'
   gem 'jquery-rails'
 
   gem 'actionmailer'
