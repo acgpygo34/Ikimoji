@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d923bf-e380-4010-b805-9e492584bf89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-    </list>
+    <list default="true" id="08d923bf-e380-4010-b805-9e492584bf89" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
           <entry key="Gemfile" value="18" />
           <entry key="erb" value="331" />
           <entry key="js" value="3" />
-          <entry key="rb" value="263" />
+          <entry key="rb" value="274" />
           <entry key="ru" value="43" />
           <entry key="scss" value="73" />
           <entry key="yml" value="1" />
@@ -176,7 +174,7 @@
           <entry key="Enforced Plain Text" value="9" />
           <entry key="JavaScript" value="3" />
           <entry key="RHTML" value="322" />
-          <entry key="Ruby" value="324" />
+          <entry key="Ruby" value="335" />
           <entry key="SCSS" value="73" />
           <entry key="YAML" value="1" />
         </counts>
@@ -189,7 +187,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -371,7 +369,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="307" />
-    <option name="y" value="46" />
+    <option name="y" value="47" />
     <option name="width" value="1133" />
     <option name="height" value="812" />
   </component>
@@ -781,12 +779,12 @@
       <workItem from="1541669081048" duration="1226000" />
       <workItem from="1541782933803" duration="429000" />
       <workItem from="1541783481929" duration="16279000" />
-      <workItem from="1542934501784" duration="4727000" />
+      <workItem from="1542934501784" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84649000" />
+    <option name="totallyTimeSpent" value="84894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +796,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="302" y="88" width="1133" height="812" extended-state="0" />
+    <frame x="307" y="47" width="1133" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.2548121" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.27659574" />
@@ -1094,7 +1093,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
