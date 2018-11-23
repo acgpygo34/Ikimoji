@@ -1,11 +1,12 @@
 class ApplicationController < ActionController::Base
-  before_action :redirect_to_custom_domain
+   before_action :redirect_to_custom_domain
 
-  # private
-  # def redirect_to_custom_domain
-  #  if request.host == "ikimoji.herokuapp.com"
+   private
+   def redirect_to_custom_domain
+    if request.host == "ikimoji.herokuapp.com"
+      redirect_to action: 'www.ikimoji.com"', status: :moved_permanently
       # before
-  #    redirect_to "www.ikimoji.com"+request.path, :status => 301
-  #  end
-  # end
+      # redirect_to "https://www.ikimoji.com"+request.path, :status => 301
+    end
+   end
 end
