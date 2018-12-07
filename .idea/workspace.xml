@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d923bf-e380-4010-b805-9e492584bf89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Ikimoji.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ikimoji.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/previews/inquiry_mailer_preview.rb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +125,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="7" />
-          <entry key="bundle" value="1" />
+          <entry key="bundle" value="2" />
           <entry key="coffee" value="2" />
           <entry key="config" value="2" />
           <entry key="erb" value="23" />
@@ -138,7 +137,7 @@
           <entry key="png" value="1" />
           <entry key="rails" value="1" />
           <entry key="rake" value="1" />
-          <entry key="rb" value="74" />
+          <entry key="rb" value="75" />
           <entry key="ru" value="3" />
           <entry key="scss" value="8" />
           <entry key="setup" value="1" />
@@ -158,7 +157,7 @@
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RHTML" value="22" />
-          <entry key="Ruby" value="89" />
+          <entry key="Ruby" value="91" />
           <entry key="SCSS" value="8" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="1" />
@@ -191,15 +190,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="207">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/bundle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -209,20 +212,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="1173">
+              <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -489,13 +483,6 @@
               <item name="ikimojitest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ikimojitest" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ikimojitest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ikimojitest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="channels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -503,11 +490,6 @@
               <item name="ikimojitest" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="jobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ikimojitest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ikimojitest" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ikimojitest" type="b2602c69:ProjectViewProjectNode" />
@@ -564,7 +546,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
@@ -845,12 +827,12 @@
       <workItem from="1541783481929" duration="16279000" />
       <workItem from="1542934501784" duration="7223000" />
       <workItem from="1543715674823" duration="1205000" />
-      <workItem from="1544204142227" duration="302000" />
+      <workItem from="1544204142227" duration="1959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88652000" />
+    <option name="totallyTimeSpent" value="90309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -923,18 +905,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/rake">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/rails">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bundle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1155,20 +1127,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="1173">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="207">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/previews/inquiry_mailer_preview.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bundle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
